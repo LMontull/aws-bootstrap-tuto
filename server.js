@@ -25,8 +25,8 @@ const { start } = require("repl");
 const Voice = require("twilio/lib/rest/Voice");
 const { query } = require("express");
 const { userNumber } = require("./config");
-const client = require('twilio')(config.accountSid, config.authToken);
-const VoiceResponse = require('twilio').twiml.VoiceResponse;
+// const client = require('twilio')(config.accountSid, config.authToken);
+// const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 //init sentry
 Sentry.init({
