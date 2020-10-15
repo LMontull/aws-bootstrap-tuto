@@ -1,7 +1,7 @@
 #!/bin/bash
 
 STACK_NAME=awsbootstrap
-REGION=us-east-1
+REGION=eu-west-3
 CLI_PROFILE=awsbootstrap
 
 EC2_INSTANCE_TYPE=t2.micro

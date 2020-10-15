@@ -100,9 +100,9 @@ Resources:
             nvm use v12.7.0
 
             # Download latest code, unzip it into /home/ec2-user/app
-            wget https://github.com/good-parts/aws-bootstrap/archive/master.zip
+            wget https://github.com/lmontull/aws-bootstrap-tuto/archive/master.zip
             unzip master.zip
-            mv aws-bootstrap-master app
+            mv aws-bootstrap-tuto-master app
 
             # Create log directory
             mkdir -p /home/ec2-user/app/logs
