@@ -150,7 +150,7 @@ var streamSession = {
 });
 
 //Handle HTTP Request
-app.get("/", (req, res) => res.send("Hello Cloud"));
+app.get("/", (req, res) => res.send("Hello Clouddd"));
 
 app.post("/stream", (req, res) => {
   ngrokHost = req.headers.host
